@@ -8,6 +8,6 @@
     <li>812653710</li>
   </suggests>
   <showCrossPromotions>true</showCrossPromotions>
-  <manifestUri>https://raw.githubusercontent.com/DrZhivago1/DocWorld/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/DrZhivago1/DocWorld/releases/latest</downloadUri>
+  <manifestUri>https://github.com/ruyanve/Clutter-Doors-Expanded/blob/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/ruyanve/Clutter-Doors-Expanded/releases</downloadUri>
 </Manifest>
