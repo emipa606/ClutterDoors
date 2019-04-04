@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>ClutterDoors</name>
+  <author>ruyan</author>
+  <url>https://ludeon.com/forums/index.php?topic=47165.0</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+    A modification/addon to Clutter Door Stuff by mrofa.
+    This is a pure xml version of the original mod without the locking mechanism. Should be safe to use in multiplayer.
+    It also serves as an addon by changing the doors from following mods to be visually in line with Clutter Doors:
+    - Dubs Bad Hygiene: Stall doors
+    - Doors Expanded: 1x2, 1x3 doors
+    - Glass and Lights: glass,reinforced glass and auto glass doors
+    - Power Logic: remote door
+  </description>
+</ModMetaData>
