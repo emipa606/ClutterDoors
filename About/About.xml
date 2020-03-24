@@ -5,7 +5,9 @@
   <url>https://github.com/ruyanve/Clutter-Doors-Expanded</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
+  <packageId>ruyan.doors</packageId>
   <description>
     A modification/addon to Clutter Door Stuff by mrofa.
     This is a pure xml version of the original mod without the locking mechanism. Should be safe to use in multiplayer.
