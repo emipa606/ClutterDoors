@@ -3,31 +3,31 @@
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Doors Expanded</li>
+      <li>Doors Expanded (Dev)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/DoorsExpanded.DoorExpandedDef[defName="PH_DoorDouble"]/graphicData/texPath</xpath>
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble"]/graphicData/texPath</xpath>
           <value>
             <texPath>Things/Building/Door/DoubleDoor</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/DoorsExpanded.DoorExpandedDef[defName="PH_DoorDouble" or defName="PH_DoorTriple"]/graphicData/graphicClass</xpath>
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble" or defName="PH_DoorTriple"]/graphicData/graphicClass</xpath>
           <value>
             <graphicClass>Graphic_Multi</graphicClass>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/DoorsExpanded.DoorExpandedDef[defName="PH_DoorDouble"]/uiIconPath</xpath>
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble"]/uiIconPath</xpath>
           <value>
             <uiIconPath>Things/Building/Door/SimpleDoor_ico</uiIconPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/DoorsExpanded.DoorExpandedDef[defName="PH_DoorTriple"]/graphicData/texPath</xpath>
+          <xpath>Defs/ThingDef[defName="PH_DoorTriple"]/graphicData/texPath</xpath>
           <value>
             <texPath>Things/Building/Door/TripleDoor</texPath>
           </value>

@@ -3,7 +3,7 @@
   <!--Insulation new doors textures-->
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Insulation</li>
+      <li>Insulation (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>

@@ -1,20 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>ClutterDoors</name>
+  <name>ClutterDoors (Continued)</name>
+  <packageId>Mlie.ClutterDoors</packageId>
   <author>ruyan</author>
-  <url>https://github.com/ruyanve/Clutter-Doors-Expanded</url>
+  <url>https://github.com/emipa606/ClutterDoors</url>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
-  <packageId>ruyan.doors</packageId>
-  <description>
-    A modification/addon to Clutter Door Stuff by mrofa.
-    This is a pure xml version of the original mod without the locking mechanism. Should be safe to use in multiplayer.
-    It also serves as an addon by changing the doors from following mods to be visually in line with Clutter Doors:
-    - Dubs Bad Hygiene: Stall doors
-    - Doors Expanded: 1x2, 1x3 doors
-    - Glass and Lights: glass,reinforced glass and auto glass doors
-    - Power Logic: remote door
-  </description>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of ruyans mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1702884986
+
+- Fixed the patches for the mentioned mods, should work if the mod-names changes in the future as well
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ClutterDoors][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1] Clutter Doors[/h1]    
+A modification/addon to Clutter Door Stuff by mrofa. The original mod can be found [url=https://ludeon.com/forums/index.php?topic=17610.0]here[/url]
+All credit goes to mrofa, be sure to check out his other awesome mods!
+
+[img]https://i.imgur.com/d1KtyxB.png[/img]
+
+[i]This is a pure xml version of the original mod without the locking mechanism. Should be safe to use in multiplayer.
+It also serves as an addon by changing the doors from following mods to be visually in line with Clutter Doors:[/i]
+
+[list]
+[*]Dubs Bad Hygiene: Stall doors
+[*]Doors Expanded: 1x2, 1x3 doors
+[*]Glass and Lights: glass,reinforced glass and auto glass doors
+[*]Power Logic: remote door
+[*]Linkable Doors
+[*]Insulation
+[*]Reinforced Doors
+[/list]
+
+[url=https://github.com/ruyanve/Clutter-Doors-Expanded]Github can be found here[/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>

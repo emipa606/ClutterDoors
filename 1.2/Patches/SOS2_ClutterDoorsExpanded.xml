@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Change texture from "Save Our Ship 2" to the a custom one, based off of Clutter Doors Expanded-->
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ShipAirlock" or defName="ShipAirlockWrecked"]/graphicData/graphicClass</xpath>
+        <value>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ShipAirlock"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Building/Ship/Airlock_Mover</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ShipAirlock"]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Ship/Airlock_Mover_ico</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ShipAirlockWrecked"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Building/Ship/Airlock_Mover_Wrecked</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ShipAirlockWrecked"]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Ship/Airlock_Mover_Wrecked_ico</uiIconPath>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

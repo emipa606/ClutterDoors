@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>ClutterDoors</identifier>
-    <version>1.0.0</version>
-    <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://github.com/ruyanve/Clutter-Doors-Expanded/blob/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/ruyanve/Clutter-Doors-Expanded/releases/latest</downloadUri>
+  <identifier>ClutterDoors</identifier>
+  <version>1.0.1.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/ClutterDoors/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/ClutterDoors/releases</downloadUri>
 </Manifest>
+
+
