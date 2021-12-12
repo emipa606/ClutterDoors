@@ -35,8 +35,6 @@ It also serves as an addon by changing the doors from following mods to be visua
 
 
 
-https://github.com/ruyanve/Clutter-Doors-Expanded]Github can be found here
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 

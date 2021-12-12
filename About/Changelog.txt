@@ -1,4 +1,7 @@
 # Changelog for ClutterDoors
 
+1.0.2.0 - Added 2x1 and 3x1 autodoor textures for Doors Expanded. Graphics by Lestia Urufuhando
+
+
 1.0.1.0 - Updated for 1.3
 

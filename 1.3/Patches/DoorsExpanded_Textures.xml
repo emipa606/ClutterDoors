@@ -20,9 +20,15 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="PH_AutodoorDouble"]/uiIconPath</xpath>
+          <xpath>Defs/ThingDef[defName="PH_AutodoorDouble"]/graphicData/texPath</xpath>
           <value>
-            <uiIconPath>Things/Building/Door/AutoDoor_ico</uiIconPath>
+            <texPath>Things/Building/Door/DoubleAutoDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_AutodoorTriple"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/TripleAutoDoor</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -32,7 +38,13 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="PH_DoorDouble" or defName="PH_DoorTriple"]/graphicData/graphicClass</xpath>
+          <xpath>Defs/ThingDef[defName="PH_AutodoorDouble" or defName="PH_AutodoorTriple"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/AutoDoor_ico</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble" or defName="PH_DoorTriple" or defName="PH_AutodoorDouble" or defName="PH_AutodoorTriple"]/graphicData/graphicClass</xpath>
           <value>
             <graphicClass>Graphic_Multi</graphicClass>
           </value>
