@@ -6,6 +6,7 @@ Update of ruyans mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1702884986
 
 - Fixed the patches for the mentioned mods, should work if the mod-names changes in the future as well
+- Added 2x1 and 3x1 autodoor textures for Doors Expanded. Graphics by Lestia Urufuhando
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -45,5 +46,6 @@ It also serves as an addon by changing the doors from following mods to be visua
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 

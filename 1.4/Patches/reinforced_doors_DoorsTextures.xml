@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!--Dubs Hygiene personal preference settings-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="WDReinforcedDoor"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedDoor"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/DoorReinforced</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedDoor"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedDoor"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/DoorReinforced_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedAutodoor"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/AutodoorReinforced</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedAutodoor"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="WDReinforcedAutodoor"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/AutodoorReinforced_MenuIcon</uiIconPath>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,5 +1,8 @@
 # Changelog for ClutterDoors
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.2.0 - Added 2x1 and 3x1 autodoor textures for Doors Expanded. Graphics by Lestia Urufuhando
 
 
