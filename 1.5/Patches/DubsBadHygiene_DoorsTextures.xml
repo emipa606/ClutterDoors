@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
   <!--Dubs Hygiene personal preference settings-->
   <Operation Class="PatchOperationConditional">
@@ -10,13 +10,7 @@
         <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="ToiletStallDoor"]/graphicData/texPath</xpath>
           <value>
-            <texPath>Things/Building/Door/StallDoorSimple</texPath>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="ToiletStallDoor"]/graphicData/graphicClass</xpath>
-          <value>
-            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/Door/StallDoor</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
