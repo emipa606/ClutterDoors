@@ -1,0 +1,85 @@
+ManifestFileVersion: 0
+CRC: 986442939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d11787c501ca89f0ab3f4cb2678a13e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d11787c501ca89f0ab3f4cb2678a13e9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/TripleAutoDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/RemoteDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutodoorDouble_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/SimpleDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_Wrecked_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/RemoteDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Biomass_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoorReinforced_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Fibre_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Fibre_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/GlassDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Polymer_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Hyper_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Hyper_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/StallDoorSimple_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/SimpleDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Polymer_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoorReinforced_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/StallDoorSimple_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/RemoteDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Polymer_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutodoorReinforced_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/GlassDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoGlassDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Biomass_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoubleAutoDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoubleAutoDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/TripleAutoDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_Wrecked_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Hyper_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutodoorTriple_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Hyper_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/TripleDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Biomass_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/SimpleDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/StallDoor.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Biomass_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoubleDoor_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoorReinforced_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/StallDoorSimple_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Biomass_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Polymer_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_Wrecked_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoGlassDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutodoorReinforced_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Fibre_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Polymer_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Hyper_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoGlassDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Ship/Airlock_Mover_ico.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/TripleDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutodoorReinforced_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Fibre_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Biomass_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoor_Hyper_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoubleDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/DoubleDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Fibre_MenuIcon.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/GlassDoor_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/AutoDoor_east.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Fibre_north.png
+- Assets/Data/Mlie.ClutterDoors/Textures/Things/Building/Door/INSDoorSimple_Polymer_north.png
+Dependencies: []

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!--Dubs Hygiene personal preference settings-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="ToiletStallDoor"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="ToiletStallDoor"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/StallDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="ToiletStallDoor"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/StallDoorSimple_ico</uiIconPath>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

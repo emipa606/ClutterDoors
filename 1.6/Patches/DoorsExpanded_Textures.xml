@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Change texture from "Doors Expanded" to the one from ClutterDoors-->
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="PH_DoorDouble"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/DoubleDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_DoorTriple"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/TripleDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_AutodoorDouble"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/DoubleAutoDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_AutodoorTriple"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/TripleAutoDoor</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble" or defName="PH_DoorTriple"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/SimpleDoor_ico</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_AutodoorDouble" or defName="PH_AutodoorTriple"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/AutoDoor_ico</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="PH_DoorDouble" or defName="PH_DoorTriple" or defName="PH_AutodoorDouble" or defName="PH_AutodoorTriple"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
