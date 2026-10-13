@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!--Insulation new doors textures-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="INSDoorSimple_Fibre"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Fibre"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoorSimple_Fibre</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Fibre"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Fibre"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoorSimple_Fibre_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Biomass"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoorSimple_Biomass</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Biomass"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Biomass"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoorSimple_Biomass_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Hyper"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoorSimple_Hyper</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Hyper"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Hyper"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoorSimple_Hyper_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Polymer"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoorSimple_Polymer</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Polymer"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoorSimple_Polymer"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoorSimple_Polymer_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Fibre"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoor_Fibre</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Fibre"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Fibre"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoor_Fibre_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Biomass"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoorSimple_Biomass</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Biomass"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Biomass"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoor_Biomass_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Hyper"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoor_Hyper</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Hyper"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Hyper"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoor_Hyper_MenuIcon</uiIconPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Polymer"]/graphicData/texPath</xpath>
+          <value>
+            <texPath>Things/Building/Door/INSDoor_Polymer</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Polymer"]/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Multi</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="INSDoor_Polymer"]/uiIconPath</xpath>
+          <value>
+            <uiIconPath>Things/Building/Door/INSDoor_Polymer_MenuIcon</uiIconPath>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
